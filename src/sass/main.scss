@@ -1,1 +1,33 @@
 /* CSS Entry Point */
+@import 'normalize';
+
+.app {
+	margin: auto;
+	margin-top: 50px;
+	border: 1px solid #E5E5E5;
+	padding: 0px 5px;
+	width: 750px;
+	background: lighten(#D0D1BC, 19%);
+	// height: 800px;
+}
+
+.org_slot {
+	margin: 15px 10px;
+	display: flex;
+	align-items: center;
+	background: #F2F2D9;
+	border: 2px solid #EBE9D1;
+	border-radius: 10px;
+	font-size: 50px;
+	color: #B8B191;
+	span {
+		padding: 20px;
+	}
+}
+
+.avatar {
+	height: 75px;
+	margin-left: 15px;
+	border-radius: 10px;
+}
+
